@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_designation_designations",
+  "info": {
+    "displayName": "Designation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "designations": {
+      "type": "string"
+    }
+  }
+}

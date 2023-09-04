@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_service_part_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

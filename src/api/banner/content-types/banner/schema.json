@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Greeting": {
+      "type": "string"
+    },
+    "BannerTitle": {
+      "type": "string"
+    },
+    "Designation": {
+      "displayName": "Designation",
+      "type": "component",
+      "repeatable": true,
+      "component": "designation.designation"
+    },
+    "social": {
+      "displayName": "Socialicons",
+      "type": "component",
+      "repeatable": true,
+      "component": "social-icon.socialicons"
+    },
+    "bannerImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  }
+}

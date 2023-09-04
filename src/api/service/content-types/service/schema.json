@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "services": {
+      "displayName": "Service",
+      "type": "component",
+      "repeatable": true,
+      "component": "service-part.service"
+    }
+  }
+}

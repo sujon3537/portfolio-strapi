@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_contact_part_contact_items",
+  "info": {
+    "displayName": "contactItem",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

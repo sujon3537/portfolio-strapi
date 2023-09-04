@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "blogs": {
+      "displayName": "blog",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-part.blog"
+    }
+  }
+}
